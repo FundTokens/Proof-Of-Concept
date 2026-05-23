@@ -1,0 +1,107 @@
+/* Views */
+.view-content {
+    animation: fadeIn 0.3s ease;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.token-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.token-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+img.token-icon {
+    border-radius: 50%;
+    height: 12rem;
+}
+
+.token-info h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.subtext {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* Composition List */
+.composition-list {
+    background-color: #f7fafc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.composition-item {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto max-content;
+    column-gap: 0.5rem;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.9rem;
+}
+
+.composition-item:last-child {
+    border-bottom: none;
+}
+
+.asset-name {
+    color: var(--text-secondary);
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+
+.asset-amount {
+    font-weight: 600;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.input-field {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.2s;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+}
