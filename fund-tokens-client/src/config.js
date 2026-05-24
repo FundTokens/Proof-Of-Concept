@@ -12,7 +12,7 @@ export const electrumClientHostname = electrumClientHostnames[network][0];
 
 export const tokenExplorerRoute = 'https://tokenexplorer.cash/?tokenId=';
 
-export const chaingraphUrl = 'https://gql.chaingraph.pat.mn/v1/graphql';
+export const chaingraphUrl = 'https://chaingraph.paryonusd.com/v1/graphql';
 
 export const paytacaIndexerUrl = 'https://bcmr-chipnet.paytaca.com/api/tokens/';
 
