@@ -30,7 +30,7 @@ export default function Footer() {
                         Smart Contracts
                     </h4>
                     <div>
-                        <a href='https://github.com/StrungSafe/FundTokens.Contracts' target='_blank' rel='noopener noreferrer'>v0.0.2</a>
+                        <a href='https://github.com/FundTokens/Proof-Of-Concept/tree/main/fund-tokens-contracts/v0.0.2' target='_blank' rel='noopener noreferrer'>v0.0.2</a>
                     </div>
                 </div>
 
