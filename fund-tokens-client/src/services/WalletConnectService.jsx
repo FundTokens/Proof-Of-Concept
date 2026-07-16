@@ -10,8 +10,8 @@ export const WALLET_CONFIG = {
     metadata: {
         name: "Fun(d)Tokens",
         description: "Fund(d)Tokens is a platform for tokenizing and trading assets.",
-        url: "https://chipnet.fundtokens.cash",
-        icons: ["https://chipnet.fundtokens.cash/fund-tokens.jpg"],
+        url: "https://poc.fundtokens.cash",
+        icons: ["https://poc.fundtokens.cash/fund-tokens.jpg"],
     }
 };
 
